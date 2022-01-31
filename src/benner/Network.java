@@ -10,8 +10,7 @@ public class Network {
 
     private No posicao[];
 
-    Network() {
-    };
+    
     Network(int tamanho) {
         try {
             if (!validaNumero(tamanho)) {
